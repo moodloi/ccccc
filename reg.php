@@ -154,7 +154,7 @@ if(isset($_POST['submit']))
     $city=$_POST['sub_category_item'];//here getting result from the post array after submitting the form.
  
     
-        if($name=='')
+        if($country=='')
     {
         //javascript use for input checking
         echo"<script>alert('Please select the country')</script>";
